@@ -1,0 +1,20 @@
+//
+//  FFLibraryPrefixHeader.pch
+//  FFLibrary
+//
+//  Created by Nang Nguyen on 9/13/15.
+//  Copyright (c) 2015 MCFF. All rights reserved.
+//
+
+#ifndef FFLibrary_FFLibraryPrefixHeader_pch
+#define FFLibrary_FFLibraryPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "FFLibrary.h"
+
+#endif
