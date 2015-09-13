@@ -64,7 +64,50 @@
 
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
+#undef	AS_SINGLETON
+#define AS_SINGLETON
+
+#undef	AS_SINGLETON
+#define AS_SINGLETON( ... ) \
++ (instancetype)instance;
+
+
+#undef	DEF_SINGLETON
+#define DEF_SINGLETON( ... ) \
++ (instancetype)instance \
+{ \
+static dispatch_once_t once; \
+static id __singleton__; \
+dispatch_once( &once, ^{ __singleton__ = [[self alloc] init]; } ); \
+return __singleton__; \
+}
+
+#undef	AS_STATIC_PROPERTY_INT
+#define AS_STATIC_PROPERTY_INT( __name ) \
+@property (nonatomic, readonly) NSInteger __name; \
++ (NSInteger)__name;
+
+#undef	DEF_STATIC_PROPERTY_INT
+#define DEF_STATIC_PROPERTY_INT( __name, __value ) \
+@dynamic __name; \
++ (NSInteger)__name \
+{ \
+return __value; \
+}
+
+#undef	AS_INT
+#define AS_INT	AS_STATIC_PROPERTY_INT
+
+#undef	DEF_INT
+#define DEF_INT	DEF_STATIC_PROPERTY_INT
+
 typedef void(^NLSenderBlock)(id sender);
 typedef void(^NLTimerBlock)(NSTimeInterval time);
+
+// HTTP methods
+static NSString* const kHttpMethodGet = @"GET";
+static NSString* const kHttpMethodPut = @"PUT";
+static NSString* const kHttpMethodPost = @"POST";
+static NSString* const kHttpMethodDelete = @"DELETE";
 
 #endif

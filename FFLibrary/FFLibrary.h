@@ -19,8 +19,7 @@
 
 // Utilities
 #import "Base64.h"
-//#import "CommonUtil.h"
-//#import "BitUtils.h"
+#import "CommonUtil.h"
 //#import "NLLunarCalendarHelper.h"
 //#import "NLLocaleUtil.h"
 //#import "NLDateFormatter.h"
@@ -54,3 +53,11 @@
 #import "UIView+Autolayout.h"
 
 #import "QMDBStorage.h"
+
+// Foundations
+#import "FFReceiverManager.h"
+//#import "NSUserDefaultsHelper.h"
+//#import "NLMonitorNetworkingService.h"
+#import "RACEXTScope.h"
+//#import "Reachability.h"
+//#import "Reachability+NLAdditions.h"

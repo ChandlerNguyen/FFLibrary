@@ -200,6 +200,26 @@
 		3A2608C31BA5B58F00D7D3C0 /* FFImageView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A2608B81BA5B4E000D7D3C0 /* FFImageView.h */; };
 		3A2608C41BA5B58F00D7D3C0 /* FFStatusView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A2608BA1BA5B4E000D7D3C0 /* FFStatusView.h */; };
 		3A2608C51BA5B58F00D7D3C0 /* FFToolbar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A2608BC1BA5B4E000D7D3C0 /* FFToolbar.h */; };
+		3A2608D21BA5C86A00D7D3C0 /* AFHTTPRequestOperation+FFError.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2608C71BA5C86A00D7D3C0 /* AFHTTPRequestOperation+FFError.m */; };
+		3A2608D31BA5C86A00D7D3C0 /* FFFilteredWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2608C91BA5C86A00D7D3C0 /* FFFilteredWebCache.m */; };
+		3A2608D41BA5C86A00D7D3C0 /* FFFilterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2608CB1BA5C86A00D7D3C0 /* FFFilterManager.m */; };
+		3A2608D51BA5C86A00D7D3C0 /* FFHttpStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2608CD1BA5C86A00D7D3C0 /* FFHttpStatus.m */; };
+		3A2608D61BA5C86A00D7D3C0 /* FFNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2608CF1BA5C86A00D7D3C0 /* FFNetworkClient.m */; };
+		3A2608D71BA5C86A00D7D3C0 /* FFNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2608D11BA5C86A00D7D3C0 /* FFNetworkManager.m */; };
+		3A2608D81BA5C89700D7D3C0 /* AFHTTPRequestOperation+FFError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A2608C61BA5C86A00D7D3C0 /* AFHTTPRequestOperation+FFError.h */; };
+		3A2608D91BA5C89700D7D3C0 /* FFFilteredWebCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A2608C81BA5C86A00D7D3C0 /* FFFilteredWebCache.h */; };
+		3A2608DA1BA5C89700D7D3C0 /* FFFilterManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A2608CA1BA5C86A00D7D3C0 /* FFFilterManager.h */; };
+		3A2608DB1BA5C89700D7D3C0 /* FFHttpStatus.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A2608CC1BA5C86A00D7D3C0 /* FFHttpStatus.h */; };
+		3A2608DC1BA5C89700D7D3C0 /* FFNetworkClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A2608CE1BA5C86A00D7D3C0 /* FFNetworkClient.h */; };
+		3A2608DD1BA5C89700D7D3C0 /* FFNetworkManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A2608D01BA5C86A00D7D3C0 /* FFNetworkManager.h */; };
+		3A2608E01BA5C8ED00D7D3C0 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2608DF1BA5C8ED00D7D3C0 /* CommonUtil.m */; };
+		3A2608E31BA5CA4E00D7D3C0 /* FFReceiverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2608E21BA5CA4E00D7D3C0 /* FFReceiverManager.m */; };
+		3A2608E61BA5CADC00D7D3C0 /* FFHandlerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2608E51BA5CADC00D7D3C0 /* FFHandlerObject.m */; };
+		3A2608F21BA5CBEC00D7D3C0 /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2608E91BA5CBEC00D7D3C0 /* AESCrypt.m */; };
+		3A2608F31BA5CBEC00D7D3C0 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2608EB1BA5CBEC00D7D3C0 /* NSData+AES.m */; };
+		3A2608F41BA5CBEC00D7D3C0 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2608ED1BA5CBEC00D7D3C0 /* NSData+Base64.m */; };
+		3A2608F51BA5CBEC00D7D3C0 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2608EF1BA5CBEC00D7D3C0 /* NSData+CommonCrypto.m */; };
+		3A2608F61BA5CBEC00D7D3C0 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2608F11BA5CBEC00D7D3C0 /* NSString+Base64.m */; };
 		3FA95ED0840F2454D3CAC8E0 /* libPods-FFLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 642EC7F4B64615B8C7D3316A /* libPods-FFLibrary.a */; };
 /* End PBXBuildFile section */
 
@@ -220,6 +240,12 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				3A2608D81BA5C89700D7D3C0 /* AFHTTPRequestOperation+FFError.h in CopyFiles */,
+				3A2608D91BA5C89700D7D3C0 /* FFFilteredWebCache.h in CopyFiles */,
+				3A2608DA1BA5C89700D7D3C0 /* FFFilterManager.h in CopyFiles */,
+				3A2608DB1BA5C89700D7D3C0 /* FFHttpStatus.h in CopyFiles */,
+				3A2608DC1BA5C89700D7D3C0 /* FFNetworkClient.h in CopyFiles */,
+				3A2608DD1BA5C89700D7D3C0 /* FFNetworkManager.h in CopyFiles */,
 				3A2608C21BA5B58F00D7D3C0 /* FFBorderdLabel.h in CopyFiles */,
 				3A2608C31BA5B58F00D7D3C0 /* FFImageView.h in CopyFiles */,
 				3A2608C41BA5B58F00D7D3C0 /* FFStatusView.h in CopyFiles */,
@@ -528,6 +554,34 @@
 		3A2608BB1BA5B4E000D7D3C0 /* FFStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FFStatusView.m; path = ../../../LichVanSu/MCFFLibrary/Views/FFStatusView.m; sourceTree = "<group>"; };
 		3A2608BC1BA5B4E000D7D3C0 /* FFToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFToolbar.h; path = ../../../LichVanSu/MCFFLibrary/Views/FFToolbar.h; sourceTree = "<group>"; };
 		3A2608BD1BA5B4E000D7D3C0 /* FFToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FFToolbar.m; path = ../../../LichVanSu/MCFFLibrary/Views/FFToolbar.m; sourceTree = "<group>"; };
+		3A2608C61BA5C86A00D7D3C0 /* AFHTTPRequestOperation+FFError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPRequestOperation+FFError.h"; sourceTree = "<group>"; };
+		3A2608C71BA5C86A00D7D3C0 /* AFHTTPRequestOperation+FFError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPRequestOperation+FFError.m"; sourceTree = "<group>"; };
+		3A2608C81BA5C86A00D7D3C0 /* FFFilteredWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFilteredWebCache.h; sourceTree = "<group>"; };
+		3A2608C91BA5C86A00D7D3C0 /* FFFilteredWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFilteredWebCache.m; sourceTree = "<group>"; };
+		3A2608CA1BA5C86A00D7D3C0 /* FFFilterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFilterManager.h; sourceTree = "<group>"; };
+		3A2608CB1BA5C86A00D7D3C0 /* FFFilterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFilterManager.m; sourceTree = "<group>"; };
+		3A2608CC1BA5C86A00D7D3C0 /* FFHttpStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHttpStatus.h; sourceTree = "<group>"; };
+		3A2608CD1BA5C86A00D7D3C0 /* FFHttpStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFHttpStatus.m; sourceTree = "<group>"; };
+		3A2608CE1BA5C86A00D7D3C0 /* FFNetworkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFNetworkClient.h; sourceTree = "<group>"; };
+		3A2608CF1BA5C86A00D7D3C0 /* FFNetworkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFNetworkClient.m; sourceTree = "<group>"; };
+		3A2608D01BA5C86A00D7D3C0 /* FFNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFNetworkManager.h; sourceTree = "<group>"; };
+		3A2608D11BA5C86A00D7D3C0 /* FFNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFNetworkManager.m; sourceTree = "<group>"; };
+		3A2608DE1BA5C8ED00D7D3C0 /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		3A2608DF1BA5C8ED00D7D3C0 /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		3A2608E11BA5CA4E00D7D3C0 /* FFReceiverManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFReceiverManager.h; sourceTree = "<group>"; };
+		3A2608E21BA5CA4E00D7D3C0 /* FFReceiverManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFReceiverManager.m; sourceTree = "<group>"; };
+		3A2608E41BA5CADC00D7D3C0 /* FFHandlerObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFHandlerObject.h; sourceTree = "<group>"; };
+		3A2608E51BA5CADC00D7D3C0 /* FFHandlerObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFHandlerObject.m; sourceTree = "<group>"; };
+		3A2608E81BA5CBEC00D7D3C0 /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		3A2608E91BA5CBEC00D7D3C0 /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		3A2608EA1BA5CBEC00D7D3C0 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		3A2608EB1BA5CBEC00D7D3C0 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		3A2608EC1BA5CBEC00D7D3C0 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		3A2608ED1BA5CBEC00D7D3C0 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		3A2608EE1BA5CBEC00D7D3C0 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		3A2608EF1BA5CBEC00D7D3C0 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		3A2608F01BA5CBEC00D7D3C0 /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		3A2608F11BA5CBEC00D7D3C0 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
 		642EC7F4B64615B8C7D3316A /* libPods-FFLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D8E91A20A125483D0EA3FA /* Pods-FFLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFLibrary.release.xcconfig"; path = "../Pods/Target Support Files/Pods-FFLibrary/Pods-FFLibrary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -708,6 +762,10 @@
 		3A2606701BA533D300D7D3C0 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				3A2608E41BA5CADC00D7D3C0 /* FFHandlerObject.h */,
+				3A2608E51BA5CADC00D7D3C0 /* FFHandlerObject.m */,
+				3A2608E11BA5CA4E00D7D3C0 /* FFReceiverManager.h */,
+				3A2608E21BA5CA4E00D7D3C0 /* FFReceiverManager.m */,
 				3A2606851BA560F600D7D3C0 /* FFConfigManager.h */,
 				3A2606861BA560F600D7D3C0 /* FFConfigManager.m */,
 			);
@@ -725,6 +783,18 @@
 		3A2606751BA533D300D7D3C0 /* Networks */ = {
 			isa = PBXGroup;
 			children = (
+				3A2608C61BA5C86A00D7D3C0 /* AFHTTPRequestOperation+FFError.h */,
+				3A2608C71BA5C86A00D7D3C0 /* AFHTTPRequestOperation+FFError.m */,
+				3A2608C81BA5C86A00D7D3C0 /* FFFilteredWebCache.h */,
+				3A2608C91BA5C86A00D7D3C0 /* FFFilteredWebCache.m */,
+				3A2608CA1BA5C86A00D7D3C0 /* FFFilterManager.h */,
+				3A2608CB1BA5C86A00D7D3C0 /* FFFilterManager.m */,
+				3A2608CC1BA5C86A00D7D3C0 /* FFHttpStatus.h */,
+				3A2608CD1BA5C86A00D7D3C0 /* FFHttpStatus.m */,
+				3A2608CE1BA5C86A00D7D3C0 /* FFNetworkClient.h */,
+				3A2608CF1BA5C86A00D7D3C0 /* FFNetworkClient.m */,
+				3A2608D01BA5C86A00D7D3C0 /* FFNetworkManager.h */,
+				3A2608D11BA5C86A00D7D3C0 /* FFNetworkManager.m */,
 			);
 			path = Networks;
 			sourceTree = "<group>";
@@ -732,6 +802,8 @@
 		3A2606761BA533D300D7D3C0 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				3A2608DE1BA5C8ED00D7D3C0 /* CommonUtil.h */,
+				3A2608DF1BA5C8ED00D7D3C0 /* CommonUtil.m */,
 				3A2606DC1BA5903B00D7D3C0 /* NLLunarCalendarHelper.h */,
 				3A2606DD1BA5903B00D7D3C0 /* NLLunarCalendarHelper.m */,
 				3A2606821BA55D3500D7D3C0 /* FFLogger.h */,
@@ -769,6 +841,7 @@
 		3A26068E1BA5729B00D7D3C0 /* 3rdParty */ = {
 			isa = PBXGroup;
 			children = (
+				3A2608E71BA5CBEC00D7D3C0 /* AESCrypt */,
 				3A2607EC1BA5AFC700D7D3C0 /* QMDBStorage */,
 				3A2606CF1BA58FD600D7D3C0 /* LunarCalendar */,
 				3A2606C41BA5798F00D7D3C0 /* GTM */,
@@ -1034,6 +1107,23 @@
 			path = QMCDRecordStack;
 			sourceTree = "<group>";
 		};
+		3A2608E71BA5CBEC00D7D3C0 /* AESCrypt */ = {
+			isa = PBXGroup;
+			children = (
+				3A2608E81BA5CBEC00D7D3C0 /* AESCrypt.h */,
+				3A2608E91BA5CBEC00D7D3C0 /* AESCrypt.m */,
+				3A2608EA1BA5CBEC00D7D3C0 /* NSData+AES.h */,
+				3A2608EB1BA5CBEC00D7D3C0 /* NSData+AES.m */,
+				3A2608EC1BA5CBEC00D7D3C0 /* NSData+Base64.h */,
+				3A2608ED1BA5CBEC00D7D3C0 /* NSData+Base64.m */,
+				3A2608EE1BA5CBEC00D7D3C0 /* NSData+CommonCrypto.h */,
+				3A2608EF1BA5CBEC00D7D3C0 /* NSData+CommonCrypto.m */,
+				3A2608F01BA5CBEC00D7D3C0 /* NSString+Base64.h */,
+				3A2608F11BA5CBEC00D7D3C0 /* NSString+Base64.m */,
+			);
+			path = AESCrypt;
+			sourceTree = "<group>";
+		};
 		A867BF26140015B38A0B6F82 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1166,6 +1256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2608E31BA5CA4E00D7D3C0 /* FFReceiverManager.m in Sources */,
 				3A2607311BA5917C00D7D3C0 /* UIView+Autolayout.m in Sources */,
 				3A2608741BA5AFC800D7D3C0 /* QMCDRecordInternal.m in Sources */,
 				3A26085C1BA5AFC800D7D3C0 /* NSFetchedResultsController+QMCDFetching.m in Sources */,
@@ -1175,13 +1266,16 @@
 				3A26086E1BA5AFC800D7D3C0 /* NSError+QMCDRecordErrorHandling.m in Sources */,
 				3A2608571BA5AFC800D7D3C0 /* NSNumber+QMCDDataImport.m in Sources */,
 				3A2607321BA5917C00D7D3C0 /* UIView+ViewSize.m in Sources */,
+				3A2608D31BA5C86A00D7D3C0 /* FFFilteredWebCache.m in Sources */,
 				3A2608631BA5AFC800D7D3C0 /* NSManagedObjectContext+QMCDObserving.m in Sources */,
 				3A2608671BA5AFC800D7D3C0 /* NSPersistentStore+QMCDRecord.m in Sources */,
 				3A26071B1BA5917C00D7D3C0 /* NSDate+FFAdditions.m in Sources */,
 				3A26072F1BA5917C00D7D3C0 /* UITableViewCell+ViewSize.m in Sources */,
 				3A2608BE1BA5B4E000D7D3C0 /* FFBorderdLabel.m in Sources */,
 				3A26087E1BA5AFC800D7D3C0 /* SQLiteQMCDRecordStack.m in Sources */,
+				3A2608F41BA5CBEC00D7D3C0 /* NSData+Base64.m in Sources */,
 				3A26087D1BA5AFC800D7D3C0 /* QMCDRecordStack.m in Sources */,
+				3A2608D51BA5C86A00D7D3C0 /* FFHttpStatus.m in Sources */,
 				3A26071D1BA5917C00D7D3C0 /* NSDictionary+FFJson.m in Sources */,
 				3A26085A1BA5AFC800D7D3C0 /* NSString+QMCDDataImport.m in Sources */,
 				3A26071C1BA5917C00D7D3C0 /* NSDictionary+FFAddtions.m in Sources */,
@@ -1190,6 +1284,7 @@
 				3A2608681BA5AFC800D7D3C0 /* NSPersistentStoreCoordinator+QMCDAutoMigrations.m in Sources */,
 				3A26071A1BA5917C00D7D3C0 /* NSData+FFAdditions.m in Sources */,
 				3A2606791BA533D300D7D3C0 /* FFAppDelegate.m in Sources */,
+				3A2608D41BA5C86A00D7D3C0 /* FFFilterManager.m in Sources */,
 				3A26085D1BA5AFC800D7D3C0 /* NSManagedObject+QMCDAggregation.m in Sources */,
 				3A2606841BA55D3500D7D3C0 /* FFLogger.m in Sources */,
 				3A2608C01BA5B4E000D7D3C0 /* FFStatusView.m in Sources */,
@@ -1198,12 +1293,14 @@
 				3A2606CA1BA5798F00D7D3C0 /* GDataXMLNode.m in Sources */,
 				3A2607341BA5917C00D7D3C0 /* UIViewController+ViewSize.m in Sources */,
 				3A2607301BA5917C00D7D3C0 /* UIToolbar+FFAdditions.m in Sources */,
+				3A2608F61BA5CBEC00D7D3C0 /* NSString+Base64.m in Sources */,
 				3A2608691BA5AFC800D7D3C0 /* NSPersistentStoreCoordinator+QMCDInMemoryStoreAdditions.m in Sources */,
 				3A26086C1BA5AFC800D7D3C0 /* NSArray+QMCDRecord.m in Sources */,
 				3A2607191BA5917C00D7D3C0 /* NSArray+FFAdditions.m in Sources */,
 				3A2608791BA5AFC800D7D3C0 /* ClassicWithBackgroundCoordinatorSQLiteQMCDRecordStack.m in Sources */,
 				3A26087C1BA5AFC800D7D3C0 /* QMCDRecordStack+Actions.m in Sources */,
 				3A2607231BA5917C00D7D3C0 /* NSString+FFJson.m in Sources */,
+				3A2608D21BA5C86A00D7D3C0 /* AFHTTPRequestOperation+FFError.m in Sources */,
 				3A2608661BA5AFC800D7D3C0 /* NSManagedObjectModel+QMCDRecord.m in Sources */,
 				3A2606BE1BA577FD00D7D3C0 /* ICUTemplateMatcher.m in Sources */,
 				3A2606C91BA5798F00D7D3C0 /* GDataXMLNode+NLAdditions.m in Sources */,
@@ -1212,6 +1309,7 @@
 				3A26086F1BA5AFC800D7D3C0 /* QMCDMigrationManager.m in Sources */,
 				3A26086A1BA5AFC800D7D3C0 /* NSPersistentStoreCoordinator+QMCDManualMigrations.m in Sources */,
 				3A2607251BA5917C00D7D3C0 /* NSURLResponse+FFAdditions.m in Sources */,
+				3A2608E61BA5CADC00D7D3C0 /* FFHandlerObject.m in Sources */,
 				3A2607211BA5917C00D7D3C0 /* NSString+GTMNSStringHTMLAdditions.m in Sources */,
 				3A2608621BA5AFC800D7D3C0 /* NSManagedObject+QMCDRequests.m in Sources */,
 				3A26072C1BA5917C00D7D3C0 /* UINavigationController+FFAdditions.m in Sources */,
@@ -1225,11 +1323,13 @@
 				3A2606DE1BA5903B00D7D3C0 /* NLLunarCalendarHelper.m in Sources */,
 				3A2608601BA5AFC800D7D3C0 /* NSManagedObject+QMCDFinders.m in Sources */,
 				3A2606A31BA5729B00D7D3C0 /* MGTemplateStandardFilters.m in Sources */,
+				3A2608F21BA5CBEC00D7D3C0 /* AESCrypt.m in Sources */,
 				3A2607281BA5917C00D7D3C0 /* UIColor+FFAdditions.m in Sources */,
 				3A26072D1BA5917C00D7D3C0 /* UITableView+FFAdditions.m in Sources */,
 				3A26087A1BA5AFC800D7D3C0 /* InMemoryQMCDRecordStack.m in Sources */,
 				3A26087B1BA5AFC800D7D3C0 /* ManuallyMigratingQMCDRecordStack.m in Sources */,
 				3A2607241BA5917C00D7D3C0 /* NSTimer+FFAdditions.m in Sources */,
+				3A2608D71BA5C86A00D7D3C0 /* FFNetworkManager.m in Sources */,
 				3A2608611BA5AFC800D7D3C0 /* NSManagedObject+QMCDRecord.m in Sources */,
 				3A2607271BA5917C00D7D3C0 /* UIButton+FFAdditions.m in Sources */,
 				3A2607201BA5917C00D7D3C0 /* NSObject+FFAdditions.m in Sources */,
@@ -1243,6 +1343,8 @@
 				3A26086D1BA5AFC800D7D3C0 /* NSDictionary+QMCDRecordAdditions.m in Sources */,
 				3A2608771BA5AFC800D7D3C0 /* AutoMigratingWithSourceAndTargetModelQMCDRecordStack.m in Sources */,
 				3A2606C21BA578A600D7D3C0 /* CMPopTipView.m in Sources */,
+				3A2608F51BA5CBEC00D7D3C0 /* NSData+CommonCrypto.m in Sources */,
+				3A2608D61BA5C86A00D7D3C0 /* FFNetworkClient.m in Sources */,
 				3A2608651BA5AFC800D7D3C0 /* NSManagedObjectContext+QMCDSaves.m in Sources */,
 				3A2607261BA5917C00D7D3C0 /* UIBarButtonItem+FFAdditions.m in Sources */,
 				3A2607381BA593BA00D7D3C0 /* Base64.m in Sources */,
@@ -1250,6 +1352,7 @@
 				3A26086B1BA5AFC800D7D3C0 /* NSPersistentStoreCoordinator+QMCDRecord.m in Sources */,
 				3A26085E1BA5AFC800D7D3C0 /* NSManagedObject+QMCDDataImport.m in Sources */,
 				3A2606BC1BA577FD00D7D3C0 /* NSArray_DeepMutableCopy.m in Sources */,
+				3A2608E01BA5C8ED00D7D3C0 /* CommonUtil.m in Sources */,
 				3A26085B1BA5AFC800D7D3C0 /* QMCDImportFunctions.m in Sources */,
 				3A26071E1BA5917C00D7D3C0 /* NSMutableArray+FFAdditions.m in Sources */,
 				3A2607221BA5917C00D7D3C0 /* NSString+FFAdditions.m in Sources */,
@@ -1258,6 +1361,7 @@
 				3A2608761BA5AFC800D7D3C0 /* AutoMigratingQMCDRecordStack.m in Sources */,
 				3A26068C1BA56FBB00D7D3C0 /* FFBaseViewController.m in Sources */,
 				3A26072B1BA5917C00D7D3C0 /* UINavigationBar+FFAdditions.m in Sources */,
+				3A2608F31BA5CBEC00D7D3C0 /* NSData+AES.m in Sources */,
 				3A2608581BA5AFC800D7D3C0 /* NSObject+QMCDDataImport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
