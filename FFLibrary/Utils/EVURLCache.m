@@ -85,7 +85,7 @@ static EVURLCache *_evURLCacheInstance = nil;
 // NSURLRequest calls will call this method before the request is executed (exept for protocol NSURLRequestReloadIgnoringLocalCacheData)
 // Here we will return the cached data or nil if we need to refresh the data.
 -(NSCachedURLResponse *)cachedResponseForRequest:(NSURLRequest *)request {
-    CacheDebugLog(@"requesting url: %@", [[request URL] absoluteString]);
+    CacheDebugLog(@"CACHE REQUEST %@", request);
     
     // is caching allowed
     if ((self.isDisableWebFilterFeature || request.cachePolicy == NSURLCacheStorageNotAllowed || [request.URL.absoluteString hasPrefix:@"file://"] || [request.URL.absoluteString hasPrefix:@"data:"]) && [EVURLCache networkAvailable]) {
@@ -238,15 +238,13 @@ static EVURLCache *_evURLCacheInstance = nil;
         
         // Return the cache response
         NSData* content = [NSData dataWithContentsOfFile:storagePath];
-        CacheDebugLog(@"Content length: %ld", [content length]);
-        NSURLResponse* response = [[NSURLResponse alloc] initWithURL:request.URL MIMEType:@"html/text" expectedContentLength:[content length] textEncodingName:nil] ;
+		NSURLResponse* response = [[NSURLResponse alloc] initWithURL:request.URL MIMEType:@"cache" expectedContentLength:[content length] textEncodingName:nil] ;
         return [[NSCachedURLResponse alloc] initWithResponse:response data:content] ;
-        //NSHTTPURLResponse *response = [[NSHTTPURLResponse alloc] initWithURL:request.URL statusCode:200 HTTPVersion:@"1.1" headerFields:nil];
-        //return [[NSCachedURLResponse alloc] initWithResponse:response data:content];
     }
     
     CacheDebugLog(@"CACHE not found %@", storagePath);
     return nil;
+	
 }
 
 // After a file has been downloaded by the NSURLRequest this method will be called.

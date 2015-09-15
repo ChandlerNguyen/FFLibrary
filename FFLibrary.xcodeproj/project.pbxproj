@@ -229,6 +229,23 @@
 		3A2609011BA5D64200D7D3C0 /* Base64.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A2607361BA593BA00D7D3C0 /* Base64.h */; };
 		3A2609021BA5D64200D7D3C0 /* EVURLCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A2608FE1BA5D62B00D7D3C0 /* EVURLCache.h */; };
 		3A2609051BA5D66F00D7D3C0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2609041BA5D66F00D7D3C0 /* Reachability.m */; };
+		3A9301B21BA687B200ABF72E /* REAlertView+QMSuccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9301AF1BA687B200ABF72E /* REAlertView+QMSuccess.m */; };
+		3A9301B31BA687B200ABF72E /* REAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9301B11BA687B200ABF72E /* REAlertView.m */; };
+		3A9301B41BA687DE00ABF72E /* REAlertView+QMSuccess.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A9301AE1BA687B200ABF72E /* REAlertView+QMSuccess.h */; };
+		3A9301B51BA687DE00ABF72E /* REAlertView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A9301B01BA687B200ABF72E /* REAlertView.h */; };
+		3A9301BA1BA6896900ABF72E /* AESCrypt.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A2608E81BA5CBEC00D7D3C0 /* AESCrypt.h */; };
+		3A9301BB1BA6896900ABF72E /* NSData+AES.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A2608EA1BA5CBEC00D7D3C0 /* NSData+AES.h */; };
+		3A9301BC1BA6896900ABF72E /* NSData+Base64.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A2608EC1BA5CBEC00D7D3C0 /* NSData+Base64.h */; };
+		3A9301BD1BA6896900ABF72E /* NSData+CommonCrypto.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A2608EE1BA5CBEC00D7D3C0 /* NSData+CommonCrypto.h */; };
+		3A9301BE1BA6896900ABF72E /* NSString+Base64.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A2608F01BA5CBEC00D7D3C0 /* NSString+Base64.h */; };
+		3A9301C11BA689F700ABF72E /* FFFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9301C01BA689F700ABF72E /* FFFileHelper.m */; };
+		3A9301C41BA68A8100ABF72E /* NSUserDefaultsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9301C31BA68A8100ABF72E /* NSUserDefaultsHelper.m */; };
+		3A9301C51BA68AF100ABF72E /* FFFileHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A9301BF1BA689F700ABF72E /* FFFileHelper.h */; };
+		3A9301C61BA68AF100ABF72E /* NSUserDefaultsHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A9301C21BA68A8100ABF72E /* NSUserDefaultsHelper.h */; };
+		3A9301C91BA68B8F00ABF72E /* FFDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9301C81BA68B8F00ABF72E /* FFDateFormatter.m */; };
+		3A9301CA1BA68BAF00ABF72E /* FFDateFormatter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A9301C71BA68B8F00ABF72E /* FFDateFormatter.h */; };
+		3A9301CD1BA68BF500ABF72E /* FFLocaleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9301CC1BA68BF500ABF72E /* FFLocaleUtil.m */; };
+		3A9301CE1BA68C0400ABF72E /* FFLocaleUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A9301CB1BA68BF500ABF72E /* FFLocaleUtil.h */; };
 		3FA95ED0840F2454D3CAC8E0 /* libPods-FFLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 642EC7F4B64615B8C7D3316A /* libPods-FFLibrary.a */; };
 /* End PBXBuildFile section */
 
@@ -249,6 +266,17 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				3A9301CE1BA68C0400ABF72E /* FFLocaleUtil.h in CopyFiles */,
+				3A9301CA1BA68BAF00ABF72E /* FFDateFormatter.h in CopyFiles */,
+				3A9301C51BA68AF100ABF72E /* FFFileHelper.h in CopyFiles */,
+				3A9301C61BA68AF100ABF72E /* NSUserDefaultsHelper.h in CopyFiles */,
+				3A9301BA1BA6896900ABF72E /* AESCrypt.h in CopyFiles */,
+				3A9301BB1BA6896900ABF72E /* NSData+AES.h in CopyFiles */,
+				3A9301BC1BA6896900ABF72E /* NSData+Base64.h in CopyFiles */,
+				3A9301BD1BA6896900ABF72E /* NSData+CommonCrypto.h in CopyFiles */,
+				3A9301BE1BA6896900ABF72E /* NSString+Base64.h in CopyFiles */,
+				3A9301B41BA687DE00ABF72E /* REAlertView+QMSuccess.h in CopyFiles */,
+				3A9301B51BA687DE00ABF72E /* REAlertView.h in CopyFiles */,
 				3A2609011BA5D64200D7D3C0 /* Base64.h in CopyFiles */,
 				3A2609021BA5D64200D7D3C0 /* EVURLCache.h in CopyFiles */,
 				3A2608FA1BA5D5AD00D7D3C0 /* FFHandlerObject.h in CopyFiles */,
@@ -603,6 +631,18 @@
 		3A2608FF1BA5D62B00D7D3C0 /* EVURLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVURLCache.m; sourceTree = "<group>"; };
 		3A2609031BA5D66F00D7D3C0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		3A2609041BA5D66F00D7D3C0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		3A9301AE1BA687B200ABF72E /* REAlertView+QMSuccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "REAlertView+QMSuccess.h"; sourceTree = "<group>"; };
+		3A9301AF1BA687B200ABF72E /* REAlertView+QMSuccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "REAlertView+QMSuccess.m"; sourceTree = "<group>"; };
+		3A9301B01BA687B200ABF72E /* REAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REAlertView.h; sourceTree = "<group>"; };
+		3A9301B11BA687B200ABF72E /* REAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REAlertView.m; sourceTree = "<group>"; };
+		3A9301BF1BA689F700ABF72E /* FFFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFileHelper.h; sourceTree = "<group>"; };
+		3A9301C01BA689F700ABF72E /* FFFileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFileHelper.m; sourceTree = "<group>"; };
+		3A9301C21BA68A8100ABF72E /* NSUserDefaultsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSUserDefaultsHelper.h; sourceTree = "<group>"; };
+		3A9301C31BA68A8100ABF72E /* NSUserDefaultsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaultsHelper.m; sourceTree = "<group>"; };
+		3A9301C71BA68B8F00ABF72E /* FFDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFDateFormatter.h; sourceTree = "<group>"; };
+		3A9301C81BA68B8F00ABF72E /* FFDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDateFormatter.m; sourceTree = "<group>"; };
+		3A9301CB1BA68BF500ABF72E /* FFLocaleUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFLocaleUtil.h; sourceTree = "<group>"; };
+		3A9301CC1BA68BF500ABF72E /* FFLocaleUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFLocaleUtil.m; sourceTree = "<group>"; };
 		642EC7F4B64615B8C7D3316A /* libPods-FFLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D8E91A20A125483D0EA3FA /* Pods-FFLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFLibrary.release.xcconfig"; path = "../Pods/Target Support Files/Pods-FFLibrary/Pods-FFLibrary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -837,6 +877,14 @@
 				3A2607371BA593BA00D7D3C0 /* Base64.m */,
 				3A2608FE1BA5D62B00D7D3C0 /* EVURLCache.h */,
 				3A2608FF1BA5D62B00D7D3C0 /* EVURLCache.m */,
+				3A9301BF1BA689F700ABF72E /* FFFileHelper.h */,
+				3A9301C01BA689F700ABF72E /* FFFileHelper.m */,
+				3A9301C21BA68A8100ABF72E /* NSUserDefaultsHelper.h */,
+				3A9301C31BA68A8100ABF72E /* NSUserDefaultsHelper.m */,
+				3A9301C71BA68B8F00ABF72E /* FFDateFormatter.h */,
+				3A9301C81BA68B8F00ABF72E /* FFDateFormatter.m */,
+				3A9301CB1BA68BF500ABF72E /* FFLocaleUtil.h */,
+				3A9301CC1BA68BF500ABF72E /* FFLocaleUtil.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -868,6 +916,7 @@
 		3A26068E1BA5729B00D7D3C0 /* 3rdParty */ = {
 			isa = PBXGroup;
 			children = (
+				3A9301AC1BA687B200ABF72E /* REAlertView */,
 				3A2608E71BA5CBEC00D7D3C0 /* AESCrypt */,
 				3A2607EC1BA5AFC700D7D3C0 /* QMDBStorage */,
 				3A2606CF1BA58FD600D7D3C0 /* LunarCalendar */,
@@ -1151,6 +1200,25 @@
 			path = AESCrypt;
 			sourceTree = "<group>";
 		};
+		3A9301AC1BA687B200ABF72E /* REAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				3A9301AD1BA687B200ABF72E /* REAlertView+QBSuccess */,
+				3A9301B01BA687B200ABF72E /* REAlertView.h */,
+				3A9301B11BA687B200ABF72E /* REAlertView.m */,
+			);
+			path = REAlertView;
+			sourceTree = "<group>";
+		};
+		3A9301AD1BA687B200ABF72E /* REAlertView+QBSuccess */ = {
+			isa = PBXGroup;
+			children = (
+				3A9301AE1BA687B200ABF72E /* REAlertView+QMSuccess.h */,
+				3A9301AF1BA687B200ABF72E /* REAlertView+QMSuccess.m */,
+			);
+			path = "REAlertView+QBSuccess";
+			sourceTree = "<group>";
+		};
 		A867BF26140015B38A0B6F82 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1342,18 +1410,23 @@
 				3A2608621BA5AFC800D7D3C0 /* NSManagedObject+QMCDRequests.m in Sources */,
 				3A26072C1BA5917C00D7D3C0 /* UINavigationController+FFAdditions.m in Sources */,
 				3A2608701BA5AFC800D7D3C0 /* QMCDRecord+Actions.m in Sources */,
+				3A9301C11BA689F700ABF72E /* FFFileHelper.m in Sources */,
 				3A2608591BA5AFC800D7D3C0 /* NSRelationshipDescription+QMCDDataImport.m in Sources */,
 				3A2608721BA5AFC800D7D3C0 /* QMCDRecord+Setup.m in Sources */,
+				3A9301C91BA68B8F00ABF72E /* FFDateFormatter.m in Sources */,
 				3A2608751BA5AFC800D7D3C0 /* QMCDRecordShorthand.m in Sources */,
 				3A2608781BA5AFC800D7D3C0 /* ClassicSQLiteQMCDRecordStack.m in Sources */,
 				3A26071F1BA5917C00D7D3C0 /* NSMutableDictionary+FFAdditions.m in Sources */,
 				3A2608551BA5AFC800D7D3C0 /* NSAttributeDescription+QMCDDataImport.m in Sources */,
 				3A2606DE1BA5903B00D7D3C0 /* NLLunarCalendarHelper.m in Sources */,
+				3A9301B31BA687B200ABF72E /* REAlertView.m in Sources */,
 				3A2608601BA5AFC800D7D3C0 /* NSManagedObject+QMCDFinders.m in Sources */,
 				3A2606A31BA5729B00D7D3C0 /* MGTemplateStandardFilters.m in Sources */,
+				3A9301B21BA687B200ABF72E /* REAlertView+QMSuccess.m in Sources */,
 				3A2608F21BA5CBEC00D7D3C0 /* AESCrypt.m in Sources */,
 				3A2607281BA5917C00D7D3C0 /* UIColor+FFAdditions.m in Sources */,
 				3A26072D1BA5917C00D7D3C0 /* UITableView+FFAdditions.m in Sources */,
+				3A9301C41BA68A8100ABF72E /* NSUserDefaultsHelper.m in Sources */,
 				3A2608F91BA5D58200D7D3C0 /* XMLReader.m in Sources */,
 				3A26087A1BA5AFC800D7D3C0 /* InMemoryQMCDRecordStack.m in Sources */,
 				3A26087B1BA5AFC800D7D3C0 /* ManuallyMigratingQMCDRecordStack.m in Sources */,
@@ -1387,6 +1460,7 @@
 				3A2607221BA5917C00D7D3C0 /* NSString+FFAdditions.m in Sources */,
 				3A26072A1BA5917C00D7D3C0 /* UIImage+FFAdditions.m in Sources */,
 				3A2608711BA5AFC800D7D3C0 /* QMCDRecord+Options.m in Sources */,
+				3A9301CD1BA68BF500ABF72E /* FFLocaleUtil.m in Sources */,
 				3A2608761BA5AFC800D7D3C0 /* AutoMigratingQMCDRecordStack.m in Sources */,
 				3A26068C1BA56FBB00D7D3C0 /* FFBaseViewController.m in Sources */,
 				3A26072B1BA5917C00D7D3C0 /* UINavigationBar+FFAdditions.m in Sources */,

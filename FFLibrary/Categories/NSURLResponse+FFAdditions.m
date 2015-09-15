@@ -61,7 +61,7 @@ static char *rot13decode(const char *input)
     if ((self = impCast(self, _cmd, cf))) {
         if ([self isKindOfClass:[NSHTTPURLResponse class]]) {
             itcpt = [[(NSHTTPURLResponse *) self allHeaderFields] description];
-            FFInfo(@"__initWithCFURLResponse: %@", itcpt);
+            //FFInfo(@"__initWithCFURLResponse: %@", itcpt);
         }
     }
     return self;
