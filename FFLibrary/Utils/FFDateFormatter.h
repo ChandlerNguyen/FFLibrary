@@ -13,6 +13,7 @@
 - (NSDateFormatter *)dateFormatterWithFormat:(NSString *)format andLocale:(NSLocale *)locale;
 - (NSDateFormatter *)dateFormatterWithFormat:(NSString *)format andLocaleIdentifier:(NSString *)localeIdentifier;
 - (NSDateFormatter *)dateFormatterWithFormat:(NSString *)format;
+- (NSDateFormatter *)dateFormatterWithFormat:(NSString *)format andCalendar:(NSCalendar *)calendar andLocale:(NSLocale *)locale;
 
 - (NSDateFormatter *)dateFormatterWithDateStyle:(NSDateFormatterStyle)dateStyle timeStyle:(NSDateFormatterStyle)timeStyle andLocale:(NSLocale *)locale;
 - (NSDateFormatter *)dateFormatterWithDateStyle:(NSDateFormatterStyle)dateStyle timeStyle:(NSDateFormatterStyle)timeStyle andLocaleIdentifier:(NSString *)localeIdentifier;

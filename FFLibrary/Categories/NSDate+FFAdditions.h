@@ -32,6 +32,8 @@
 + (long long)timeStamp;
 + (NSDate *)dateWithString:(NSString *)string;
 + (NSDate *)now;
++ (NSDate *)dateYesterday;
++ (NSDate *)dateTomorrow;
 
 // Adjusting dates
 // https://github.com/azu/NSDate-Escort
@@ -41,6 +43,22 @@
 - (NSDate *)dateBySubtractingMonths:(NSInteger) dMonths;
 - (NSDate *)dateByAddingDays:(NSInteger) dDays;
 - (NSDate *)dateBySubtractingDays:(NSInteger) dDays;
+
+- (BOOL)isToday;
+- (BOOL)isTomorrow;
+- (BOOL)isYesterday;
+
+- (BOOL)isInFuture;
+- (BOOL)isInPast;
+
+- (BOOL)isBeforeDate:(NSDate *)date;
+- (BOOL)isAfterDate:(NSDate *)date;
+
+- (NSDate *)startOfDay;
+- (NSDate *)endOfDay;
+
+- (NSInteger)daysAfterDate:(NSDate *)date;
+- (NSInteger)daysBeforeDate:(NSDate *)date;
 
 + (NSString *)dateFormatString;
 + (NSString *)timeFormatString;

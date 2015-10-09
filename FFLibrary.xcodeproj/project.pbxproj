@@ -246,6 +246,8 @@
 		3A9301CA1BA68BAF00ABF72E /* FFDateFormatter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A9301C71BA68B8F00ABF72E /* FFDateFormatter.h */; };
 		3A9301CD1BA68BF500ABF72E /* FFLocaleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9301CC1BA68BF500ABF72E /* FFLocaleUtil.m */; };
 		3A9301CE1BA68C0400ABF72E /* FFLocaleUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A9301CB1BA68BF500ABF72E /* FFLocaleUtil.h */; };
+		3A9FF4AD1BADA8C70087C29F /* UISegmentedControl+FFActionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9FF4AC1BADA8C70087C29F /* UISegmentedControl+FFActionBlock.m */; settings = {ASSET_TAGS = (); }; };
+		3A9FF4AE1BADA9440087C29F /* UISegmentedControl+FFActionBlock.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A9FF4AB1BADA8C70087C29F /* UISegmentedControl+FFActionBlock.h */; };
 		3FA95ED0840F2454D3CAC8E0 /* libPods-FFLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 642EC7F4B64615B8C7D3316A /* libPods-FFLibrary.a */; };
 /* End PBXBuildFile section */
 
@@ -266,6 +268,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				3A9FF4AE1BADA9440087C29F /* UISegmentedControl+FFActionBlock.h in CopyFiles */,
 				3A9301CE1BA68C0400ABF72E /* FFLocaleUtil.h in CopyFiles */,
 				3A9301CA1BA68BAF00ABF72E /* FFDateFormatter.h in CopyFiles */,
 				3A9301C51BA68AF100ABF72E /* FFFileHelper.h in CopyFiles */,
@@ -643,6 +646,8 @@
 		3A9301C81BA68B8F00ABF72E /* FFDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFDateFormatter.m; sourceTree = "<group>"; };
 		3A9301CB1BA68BF500ABF72E /* FFLocaleUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFLocaleUtil.h; sourceTree = "<group>"; };
 		3A9301CC1BA68BF500ABF72E /* FFLocaleUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFLocaleUtil.m; sourceTree = "<group>"; };
+		3A9FF4AB1BADA8C70087C29F /* UISegmentedControl+FFActionBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+FFActionBlock.h"; sourceTree = "<group>"; };
+		3A9FF4AC1BADA8C70087C29F /* UISegmentedControl+FFActionBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+FFActionBlock.m"; sourceTree = "<group>"; };
 		642EC7F4B64615B8C7D3316A /* libPods-FFLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D8E91A20A125483D0EA3FA /* Pods-FFLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFLibrary.release.xcconfig"; path = "../Pods/Target Support Files/Pods-FFLibrary/Pods-FFLibrary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -802,6 +807,8 @@
 				3A2607161BA5917C00D7D3C0 /* UIViewController+ViewSize.m */,
 				3A2607171BA5917C00D7D3C0 /* UIWebView+FFAdditions.h */,
 				3A2607181BA5917C00D7D3C0 /* UIWebView+FFAdditions.m */,
+				3A9FF4AB1BADA8C70087C29F /* UISegmentedControl+FFActionBlock.h */,
+				3A9FF4AC1BADA8C70087C29F /* UISegmentedControl+FFActionBlock.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -1398,6 +1405,7 @@
 				3A2607231BA5917C00D7D3C0 /* NSString+FFJson.m in Sources */,
 				3A2608D21BA5C86A00D7D3C0 /* AFHTTPRequestOperation+FFError.m in Sources */,
 				3A2608661BA5AFC800D7D3C0 /* NSManagedObjectModel+QMCDRecord.m in Sources */,
+				3A9FF4AD1BADA8C70087C29F /* UISegmentedControl+FFActionBlock.m in Sources */,
 				3A2606BE1BA577FD00D7D3C0 /* ICUTemplateMatcher.m in Sources */,
 				3A2606C91BA5798F00D7D3C0 /* GDataXMLNode+NLAdditions.m in Sources */,
 				3A2608641BA5AFC800D7D3C0 /* NSManagedObjectContext+QMCDRecord.m in Sources */,
@@ -1523,7 +1531,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1559,7 +1567,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

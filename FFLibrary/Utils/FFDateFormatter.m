@@ -36,6 +36,23 @@
     return sharedInstance;
 }
 
+- (NSDateFormatter *)dateFormatterWithFormat:(NSString *)format andCalendar:(NSCalendar *)calendar andLocale:(NSLocale *)locale {
+    @synchronized(self) {
+        NSString *key = [NSString stringWithFormat:@"format:%@|locale:%@", format, locale.localeIdentifier];
+        
+        NSDateFormatter *dateFormatter = [self.loadedDateFormatters objectForKey:key];
+        if (!dateFormatter) {
+            dateFormatter = [[NSDateFormatter alloc] init];
+            dateFormatter.dateFormat = [NSDateFormatter dateFormatFromTemplate:format options:0 locale:locale];;
+            dateFormatter.locale = locale;
+            dateFormatter.calendar = calendar;
+            [self.loadedDateFormatters setObject:dateFormatter forKey:key];
+        }
+        
+        return dateFormatter;
+    }
+}
+
 - (NSDateFormatter *)dateFormatterWithFormat:(NSString *)format andLocale:(NSLocale *)locale {
     @synchronized(self) {
         NSString *key = [NSString stringWithFormat:@"format:%@|locale:%@", format, locale.localeIdentifier];

@@ -40,6 +40,7 @@ typedef NS_ENUM(NSUInteger, NLNavButtonBarPosition){
 - (void)showBarButton:(NSInteger)position system:(UIBarButtonSystemItem)index performActionUsingBlock:(NLSenderBlock)block;
 
 - (void)showBarButton:(NSInteger)position custom:(UIView *)view;
+- (void)navigationBarWithSegmentedControl:(UISegmentedControl*)segmentedControl;
 
 - (void)hideBarButton:(NSInteger)position;
 

@@ -186,6 +186,14 @@
     
 }
 
+- (void)navigationBarWithSegmentedControl:(UISegmentedControl*)segmentedControl {
+    if (self.tabBarController) {
+        self.tabBarController.navigationItem.titleView = segmentedControl;
+    } else {
+        self.navigationItem.titleView = segmentedControl;
+    }
+}
+
 - (void)showBarButton:(NSInteger)position custom:(UIView *)view
 {
     if (self.tabBarController) {
