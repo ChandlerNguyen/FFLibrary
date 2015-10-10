@@ -248,6 +248,8 @@
 		3A9301CE1BA68C0400ABF72E /* FFLocaleUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A9301CB1BA68BF500ABF72E /* FFLocaleUtil.h */; };
 		3A9FF4AD1BADA8C70087C29F /* UISegmentedControl+FFActionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9FF4AC1BADA8C70087C29F /* UISegmentedControl+FFActionBlock.m */; settings = {ASSET_TAGS = (); }; };
 		3A9FF4AE1BADA9440087C29F /* UISegmentedControl+FFActionBlock.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A9FF4AB1BADA8C70087C29F /* UISegmentedControl+FFActionBlock.h */; };
+		3AA77E5D1BC90D7F003AA4E4 /* UIView+FFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA77E5C1BC90D7F003AA4E4 /* UIView+FFAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		3AA77E5E1BC90DB8003AA4E4 /* UIView+FFAdditions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AA77E5B1BC90D7F003AA4E4 /* UIView+FFAdditions.h */; };
 		3FA95ED0840F2454D3CAC8E0 /* libPods-FFLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 642EC7F4B64615B8C7D3316A /* libPods-FFLibrary.a */; };
 /* End PBXBuildFile section */
 
@@ -268,6 +270,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				3AA77E5E1BC90DB8003AA4E4 /* UIView+FFAdditions.h in CopyFiles */,
 				3A9FF4AE1BADA9440087C29F /* UISegmentedControl+FFActionBlock.h in CopyFiles */,
 				3A9301CE1BA68C0400ABF72E /* FFLocaleUtil.h in CopyFiles */,
 				3A9301CA1BA68BAF00ABF72E /* FFDateFormatter.h in CopyFiles */,
@@ -648,6 +651,8 @@
 		3A9301CC1BA68BF500ABF72E /* FFLocaleUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFLocaleUtil.m; sourceTree = "<group>"; };
 		3A9FF4AB1BADA8C70087C29F /* UISegmentedControl+FFActionBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+FFActionBlock.h"; sourceTree = "<group>"; };
 		3A9FF4AC1BADA8C70087C29F /* UISegmentedControl+FFActionBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+FFActionBlock.m"; sourceTree = "<group>"; };
+		3AA77E5B1BC90D7F003AA4E4 /* UIView+FFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FFAdditions.h"; sourceTree = "<group>"; };
+		3AA77E5C1BC90D7F003AA4E4 /* UIView+FFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FFAdditions.m"; sourceTree = "<group>"; };
 		642EC7F4B64615B8C7D3316A /* libPods-FFLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D8E91A20A125483D0EA3FA /* Pods-FFLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFLibrary.release.xcconfig"; path = "../Pods/Target Support Files/Pods-FFLibrary/Pods-FFLibrary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -809,6 +814,8 @@
 				3A2607181BA5917C00D7D3C0 /* UIWebView+FFAdditions.m */,
 				3A9FF4AB1BADA8C70087C29F /* UISegmentedControl+FFActionBlock.h */,
 				3A9FF4AC1BADA8C70087C29F /* UISegmentedControl+FFActionBlock.m */,
+				3AA77E5B1BC90D7F003AA4E4 /* UIView+FFAdditions.h */,
+				3AA77E5C1BC90D7F003AA4E4 /* UIView+FFAdditions.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -1386,6 +1393,7 @@
 				3A26072E1BA5917C00D7D3C0 /* UITableViewCell+FFAdditions.m in Sources */,
 				3A2608681BA5AFC800D7D3C0 /* NSPersistentStoreCoordinator+QMCDAutoMigrations.m in Sources */,
 				3A26071A1BA5917C00D7D3C0 /* NSData+FFAdditions.m in Sources */,
+				3AA77E5D1BC90D7F003AA4E4 /* UIView+FFAdditions.m in Sources */,
 				3A2606791BA533D300D7D3C0 /* FFAppDelegate.m in Sources */,
 				3A2608D41BA5C86A00D7D3C0 /* FFFilterManager.m in Sources */,
 				3A26085D1BA5AFC800D7D3C0 /* NSManagedObject+QMCDAggregation.m in Sources */,

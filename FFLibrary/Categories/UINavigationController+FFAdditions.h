@@ -10,6 +10,7 @@
 
 @interface UINavigationController (FFAdditions)
 
+- (UIViewController*)currentViewController;
 - (void)makeTransparent;
 - (void)setBackgroundFromColor:(UIColor*)color titleColor:(UIColor*)titleColor colorOfBackButton:(UIColor*)backButtonColor;
 

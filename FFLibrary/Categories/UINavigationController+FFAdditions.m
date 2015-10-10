@@ -33,4 +33,8 @@
     self.navigationBar.translucent = YES;
 }
 
+- (UIViewController*)currentViewController {
+    return [self.viewControllers lastObject];
+}
+
 @end
