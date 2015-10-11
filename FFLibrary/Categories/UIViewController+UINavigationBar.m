@@ -256,4 +256,12 @@
     
 }
 
+- (void)hiddenToolbarBottom {
+    if (self.tabBarController) {
+        [self.tabBarController.navigationController setToolbarHidden:YES];
+    } else {
+        [self.navigationController setToolbarHidden:YES];
+    }
+}
+
 @end

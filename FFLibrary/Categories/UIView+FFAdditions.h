@@ -11,5 +11,5 @@
 @interface UIView (FFAdditions)
 
 - (UIViewController *)currentTopViewController;
-
+- (UIViewController *)firstAvailableUIViewController;
 @end

@@ -48,4 +48,6 @@ typedef NS_ENUM(NSUInteger, NLNavButtonBarPosition){
 
 - (void)setColorsForNavigationBarWithBackground:(UIColor*)backgroundColor titleColor:(UIColor*)titleColor
                               colorOfBackButton:(UIColor*)tintColor;
+
+- (void)hiddenToolbarBottom;
 @end
