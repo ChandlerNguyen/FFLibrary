@@ -12,4 +12,5 @@
 
 - (UIViewController *)currentTopViewController;
 - (UIViewController *)firstAvailableUIViewController;
+- (UIViewController *)viewController;
 @end

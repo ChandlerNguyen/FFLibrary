@@ -24,6 +24,7 @@
 
 @property (strong, nonatomic, readonly) dispatch_queue_t queue;
 @property (strong, nonatomic, readonly) SQLiteQMCDRecordStack *stack;
+@property (strong, nonatomic, readonly) NSManagedObjectContext *bgContex;
 
 - (instancetype)initWithDefaultStoreNameAndQueueLabel:(const char *)queueLabel;
 - (instancetype)initWithStoreNamed:(NSString *)storeName

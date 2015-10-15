@@ -40,4 +40,11 @@
     }
 }
 
+- (UIViewController *)viewController {
+    if ([self.nextResponder isKindOfClass:UIViewController.class])
+        return (UIViewController *)self.nextResponder;
+    else
+        return nil;
+}
+
 @end
